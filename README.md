@@ -64,6 +64,23 @@ Contributions, ideas, and discussions are welcome!
 
 ---
 
+## Why Nyx?
+
+C++ is a powerful but often complex and error-prone.\
+Nyx aims to provide:
+- A simpler, more consistent syntax
+- Safer defaults (memory safety, bounds checks in debug mode)
+- Modern Tooling (package manager, build system, etc.)
+
+Unlike many new languages that rely on LLVM or C transpilation,
+Nyx is designed with its own custom compiler.  
+This gives us full control over:
+- Lexing, parsing, and code generation
+- Our own intermediate representation (IR)
+- Direct machine code output in the future
+
+---
+
 ## Nyx Project Structure
 
 When you create a new Nyx project, the folder structure looks
